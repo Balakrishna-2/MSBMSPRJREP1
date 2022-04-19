@@ -1,0 +1,10 @@
+server :
+  port : 8761
+  waitTimeinMs WhenSyncEmpty : 0
+  
+eureka:
+  client:
+   registerWithEureka : false
+   fetchRegistry : false
+  server:
+    waitTimeinMs WhenSyncEmpty : 0
